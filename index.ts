@@ -19,14 +19,14 @@ const plugin: Plugin = async () => {
         return;
       }
 
-      console.log('[tooldmod] Read tool definition (scrubbed)', {
-        toolID: input.toolID,
-        descriptionLines,
-        parameters,
-        descriptionLinesRemoved: stats.descriptionLinesRemoved,
-        removedDescriptionLines: stats.removedDescriptionLines,
-        removedSchemaProperties: stats.removedSchemaProperties,
-      });
+      // console.log('[tooldmod] Read tool definition (scrubbed)', {
+      //  toolID: input.toolID,
+      // descriptionLines,
+      //parameters,
+      //descriptionLinesRemoved: stats.descriptionLinesRemoved,
+      //removedDescriptionLines: stats.removedDescriptionLines,
+      //removedSchemaProperties: stats.removedSchemaProperties,
+      // });
     },
   };
 };
